@@ -1,0 +1,36 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment directory
+venv/
+venv*/
+
+# Ignore database files (you might use a different database system)
+*.sqlite3
+
+# Ignore your local settings file (if you have one)
+local_settings.py
+
+# Ignore the media root, which stores uploaded files
+media/
+
+# Ignore static files collected by 'collectstatic'
+static/
+
+# Ignore logs
+logs/
+
+# Ignore .env files (for environment variables)
+.env
+
+# Ignore IDE/Editor specific files
+.vscode/
+.idea/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Node.js directories (if you're using JavaScript/Node.js in your project)
+node_modules/
